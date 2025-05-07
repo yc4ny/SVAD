@@ -10,7 +10,6 @@ CVPR 2025 Workshop: SyntaGen-Harnessing Generative Models for Synthetic Visual D
 <br>
 </div>
 
-[Yonwoo Choi](https://yc4ny.github.io/)
 [Project Page](https://yc4ny.github.io/SVAD/)
 [arXiv]()
 
