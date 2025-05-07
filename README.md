@@ -81,7 +81,7 @@ cd ../../ # Return to base avatar directory
 
 You can download the required files to run this code with:
 ```bash
-gdown 1334e-9Xy3cdgPoSNVLn-DRZUV4Rz_35u
+gdown 1_dH5-0fMTfED_BI1h_fQcL2bHyLqNBot
 python utils/extract_zip.py # This will put extracted files in place. 
 rm -rf Avatar.zip
 ```
