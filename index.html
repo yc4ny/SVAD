@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description"
+        content="Project page of the paper <SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation>"">
+  <meta property=" og:title"
+        content="SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation" />
+    <meta property="og:description"
+        content="We present a pipeline leveraging video diffusion models and data augmentation to generate synthetic training data from a single image, enabling animatable 3D Gaussian avatars with consistent identity across poses." />
+    <meta property="og:url" content="https://yc4ny.github.io/SVAD" />
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/images/teaser.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+
+    <meta name="twitter:title"
+        content="SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/teaser.png">
+    <meta name="twitter:card" content="static/images/teaser.png">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="3D Avatars, Single Image to 3D, Synthetic Data">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>SVAD</title>
+    <link rel="icon" type="image/x-icon" href="static/images/secern.ico">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/js/video-comparison.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script src="static/js/video-comparison.js"></script>
+</head>
+
+<body>
+
+
+<div class="hero-body">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column has-text-centered">
+                <h1 class="title is-1 publication-title">SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation</h1>
+                <div class="is-size-5 publication-authors">
+                    <!-- Paper authors -->
+                    <span class="author-block">
+                        <a href="https://yc4ny.github.io" target="_blank">Yonwoo
+                            Choi</a><sup>1</sup>,</span>
+                </div>
+
+                <div class="is-size-5 publication-authors">
+                    <span class="author-block">SECERN AI<sup>1</sup>,</span>
+                </div>
+                
+                <div class="columns is-centered">
+                    <div class="column is-size-4 publication-venue">
+                        CVPR 2025 Workshop <font color="#2B93E8"></font>
+                    </div>
+                </div>
+
+                <div class="publication-links">
+                    <!-- Paper link -->
+                    <span class="link-block">
+                        <a href="static/pdfs/16-SyntaGen.pdf" target="_blank"
+                            class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="fas fa-file-pdf"></i>
+                            </span>
+                            <span>Paper</span>
+                        </a>
+                    </span>
+
+                    <!-- Github link -->
+                    <span class="link-block">
+                        <a href="https://github.com/yc4ny/SVAD" target="_blank"
+                            class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Code</span>
+                        </a>
+                    </span>
+
+                    <!-- arXiv link -->
+                    <span class="link-block">
+                        <a href="https://arxiv.org/abs/2401.12978" target="_blank"
+                            class="external-link button is-normal is-rounded is-dark">
+                            <span class="icon">
+                                <i class="ai ai-arxiv"></i>
+                            </span>
+                            <span>arXiv</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Teaser video-->
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-image">
+                <img src="static/images/teaser.png" alt="Random Image" id="tree" width="100%">
+            </div>
+        </div>
+        </br>
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <h2 class="subtitle has-text-centered">
+                    Given a single image, we generate high-fidelity 3D avatars using synthetic data from video diffusion and data augmentation, maintaining identity consistency across novel poses and viewpoints while enabling real-time rendering.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- End teaser video -->
+
+    <section class="hero is-light">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <br>
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                         Creating high-quality animatable 3D human avatars from a single image remains a significant challenge in computer vision 
+                         due to the inherent difficulty of reconstructing complete 3D information from a single viewpoint. Current approaches face 
+                         a clear limitation: 3D Gaussian Splatting (3DGS) methods produce high-quality results but require multiple views or video sequences,
+                         while video diffusion models can generate animations from single images but struggle with consistency and identity preservation. 
+                         We present SVAD, a novel approach that addresses these limitations by leveraging complementary strengths of existing techniques. 
+                         Our method generates synthetic training data through video diffusion, enhances it with identity preservation and image restoration modules, 
+                         and utilizes this refined data to train 3DGS avatars. Comprehensive evaluations demonstrate that SVAD outperforms state-of-the-art (SOTA) 
+                         single-image methods in maintaining identity consistency and fine details across novel poses and viewpoints, while enabling 
+                         real-time rendering capabilities. Through our data augmentation pipeline, we overcome the dependency on dense monocular or 
+                         multi-view training data typically required by traditional 3DGS approaches. Extensive quantitative, qualitative comparisons 
+                         show our method achieves superior performance across multiple metrics against baseline models. By effectively combining the 
+                         generative power of diffusion models with both the high-quality results and rendering efficiency of 3DGS, our work establishes a 
+                         new approach for high-fidelity avatar generation from a single image input.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Paper abstract -->
+    <section class="section hero">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+            </div>
+            <div class="container is-max-desktop">
+                <h2 class="title is-3 has-text-centered">Pipeline</h2>
+                <br>
+                <img src="static/images/pipeline.png" alt="Problem Description" width="100%">
+                <br>
+                <br>
+                <h2 class="subtitle has-text-centered">
+                Starting from a single input image, our method generates pose-conditioned animations through video diffusion. 
+                However, <b>directly using these frames yields poor results with inconsistent identity and details.</b> 
+                These challenges are addressed through our data augmentation pipeline, 
+                producing high-fidelity animatable 3D avatars.
+                </h2>
+                <hr>
+                <img src="static/images/results_avatar.png" alt="Problem Description" width="100%">
+                <br>
+                <br>
+                    <br>
+    </section>
+
+
+    <section class="hero is-small is-light">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">Video</h2>
+                        <div class="publication-video">
+                            <iframe width="100%" height="450" src=""
+                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>@inproceedings{SVAD,
+    title="SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation",
+    author="Choi, Yonwoo",
+    booktitle=CVPR Workshop,
+    year={2025}
+}</code></pre>
+        </div>
+    </section>
+    <!--End BibTex citation -->
+
+
+    <!--Project page citation -->
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+
+                        <p>
+                            This page was built using the <a
+                                href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                            You are free to borrow the of this website, we just ask that you link back to this page in
+                            the footer.
+                            <br> This website is licensed under a <a rel="license"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
