@@ -1,0 +1,34 @@
+name: svad
+channels:
+  - pytorch3d
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch=2.3.1
+  - pytorch-cuda=12.1
+  - torchvision
+  - torchaudio
+  - numpy
+  - pillow
+  - tqdm
+  - pip
+  - pytorch3d=0.7.8 py39_cu121_pyt231
+  - yaml
+  - setuptools
+  - packaging
+  - jinja2
+  - filelock
+  - networkx
+  - sympy
+  - typing-extensions
+  - pip:
+      - face-alignment
+      - fvcore
+      - iopath
+      - opencv-python
+      - matplotlib
+      - ipython
+      - ipdb
