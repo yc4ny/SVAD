@@ -95,7 +95,7 @@ To ensure seamless execution of our pipeline, certain package modifications are 
 ###  Pipeline
 ![teaser](assets/pipeline.png)
 
-### Automated Processing 
+### Training Avatars with Script 
 We provide a script to automate the entire pipeline for avatar generation from a single image. This script supports parallel processing (training multiple avatars at the same time 1 per 1 gpu).
 <br>
 Put your input image in *data/{name_of_image}/ref.png*. 
