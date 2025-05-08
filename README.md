@@ -8,13 +8,10 @@ ${{\color{Red}\Huge{\textbf{  CVPR Workshop\ 2025\ \}}}}\$
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)]()
 [![Project Page](https://img.shields.io/badge/SVAD-Website-4CAF50?logo=googlechrome&logoColor=white)](https://yc4ny.github.io/SVAD/)
 [![Code](https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white')](https://yc4ny.github.io/SVAD/)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=yc4ny.SVAD&left_color=gray&right_color=orange)]
+<a href="" target='_blank'>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=yc4ny.Fanbeam-Calibration&left_color=gray&right_color=orange">
+</a>
 
-    <a href='https://github.com/yc4ny/Fanbeam-Calibration'>
-      <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a>
-    <a href="" target='_blank'>
-      <img src="https://visitor-badge.laobi.icu/badge?page_id=yc4ny.Fanbeam-Calibration&left_color=gray&right_color=orange">
-    </a>
 
 </div>
 
