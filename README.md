@@ -2,7 +2,7 @@
 
 # SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation
 
-${{\color{Red}\Huge{\textbf{  CVPR Workshop\ 2025\ \}}}}\$
+${{\color{Black}\Huge{\textbf{  CVPR Workshop\ 2025\ \}}}}\$
 
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)]()
