@@ -1,6 +1,11 @@
 # SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation
 <div style="background-color:#222; padding:10px; border-radius:5px; color:white;">
-Yonwoo Choi.
+ 
+[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2501.13928)
+[![Project Website](https://img.shields.io/badge/Fast3R-Website-4CAF50?logo=googlechrome&logoColor=white)](https://fast3r-3d.github.io/)
+[![Gradio Demo](https://img.shields.io/badge/Gradio-Demo-orange?style=flat&logo=Gradio&logoColor=red)](https://fast3r.ngrok.app/)
+[![Hugging Face Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/jedyang97/Fast3R_ViT_Large_512/)
+
 <br>
 <b>SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation</b> 
 <br>
@@ -9,11 +14,6 @@ CVPR 2025 Workshop: SyntaGen-Harnessing Generative Models for Synthetic Visual D
 <i>SECERN AI</i>
 <br>
 </div>
-
-[Project Page](https://yc4ny.github.io/SVAD/)
-[arXiv]()
-
-![teaser](assets/teaser.png)
 
 ## Overview
 
