@@ -1,4 +1,4 @@
-# [CVPRW 2025] SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation
+# SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation
 <div style="background-color:#222; padding:10px; border-radius:5px; color:white;">
 Yonwoo Choi.
 <br>
