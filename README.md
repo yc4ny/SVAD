@@ -21,11 +21,10 @@ CVPR 2025 Workshop: SyntaGen-Harnessing Generative Models for Synthetic Visual D
 
 **Key Features:**
 - Single-image input to full-body 3D avatar generation
-- Enhanced facial fidelity through 3D head renderings and face warping
-- State-of-the-art visual quality and identity preservation
 
 ## News
-- [2025/03.30] SVAD has been accepted to CVPR 2025 Workshop!
+- [2025/05/08] Code has been released. 
+- [2025/03.30] SVAD has been accepted to CVPR 2025 Workshop.
 
 ## Installation
 
