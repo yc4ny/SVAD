@@ -6,7 +6,7 @@ ${{\color{Red}\Huge{\textbf{  CVPR Workshop\ 2025\ \}}}}\$
 
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)]()
-[![Project Page](https://img.shields.io/badge/Fast3R-Website-4CAF50?logo=googlechrome&logoColor=white)](https://yc4ny.github.io/SVAD/)
+[![Project Page](https://img.shields.io/badge/SVAD-Website-4CAF50?logo=googlechrome&logoColor=white)](https://yc4ny.github.io/SVAD/)
 
 </div>
 
