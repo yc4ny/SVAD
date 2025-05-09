@@ -75,6 +75,7 @@ $(document).ready(function () {
   setTimeout(function() {
     initCustomCarousel('#results-carousel');
     initCustomCarousel('#wild-carousel');
+    initCustomCarousel('#applications-carousel');
   }, 100);
 
   bulmaSlider.attach();
