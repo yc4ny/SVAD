@@ -113,16 +113,16 @@ bash script.sh thuman_181 1    # Running on GPU 1
 ```
 If you have correctly installed the environment and applied the package fixes in [FIX.md](docs/FIX.md), there should be no problem running the automated script. However, if there are issues, we also provide a step by step guide to train your avatar. Follow the details in [TRAIN.md](docs/TRAIN.md).
 
-### Avatar Rendering
+## Avatar Rendering
 
-#### Neutral Pose
+### Neutral Pose
 After training your avatar, you can render the rotating avatar with neutral pose: 
 ```bash
 cd avatar/main/
 python get_neutral_pose.py --subject_id {SUBJECT_ID} --test_epoch 4
 ```
 
-#### Animation
+### Animation
 You can animate your avatar with :
 ```bash
 python animation.py --subject_id {SUBJECT_ID} --test_epoch 4 --motion_path {MOTION_PATH}
