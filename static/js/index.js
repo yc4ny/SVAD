@@ -2,9 +2,11 @@ window.HELP_IMPROVE_VIDEOJS = false;
 
 $(document).ready(function () {
   // Custom carousel implementation
-  function initCustomCarousel() {
-    const $carousel = $('.slider');
-    const $items = $carousel.find('.slider-item');
+  function initCustomCarousel(selector) {
+    const $carousel = $(selector);
+    if (!$carousel.length) return; // Skip if carousel doesn't exist
+
+    const $items = $carousel.find('.carousel-items .slider-item');
     const $container = $('<div class="carousel-container"></div>');
     const $nav = $('<div class="carousel-nav"></div>');
     const $prev = $('<button class="carousel-prev">&lt;</button>');
@@ -13,7 +15,7 @@ $(document).ready(function () {
     let isAnimating = false;
 
     // Setup carousel structure
-    $carousel.empty();
+    $carousel.find('.carousel-items').remove();
     $carousel.append($container);
     $carousel.append($nav);
     $nav.append($prev);
@@ -69,8 +71,11 @@ $(document).ready(function () {
     );
   }
 
-  // Initialize carousel after a small delay
-  setTimeout(initCustomCarousel, 100);
+  // Initialize both carousels
+  setTimeout(function() {
+    initCustomCarousel('#results-carousel');
+    initCustomCarousel('#wild-carousel');
+  }, 100);
 
   bulmaSlider.attach();
 });
