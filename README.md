@@ -121,6 +121,8 @@ After training your avatar, you can render the rotating avatar with neutral pose
 cd avatar/main/
 python get_neutral_pose.py --subject_id {SUBJECT_ID} --test_epoch 4
 ```
+
+#### Animation
 You can animate your avatar with :
 ```bash
 python animation.py --subject_id {SUBJECT_ID} --test_epoch 4 --motion_path {MOTION_PATH}
