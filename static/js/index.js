@@ -1,21 +1,76 @@
 window.HELP_IMPROVE_VIDEOJS = false;
 
-
 $(document).ready(function () {
-  // Check for click events on the navbar burger icon
+  // Custom carousel implementation
+  function initCustomCarousel() {
+    const $carousel = $('.slider');
+    const $items = $carousel.find('.slider-item');
+    const $container = $('<div class="carousel-container"></div>');
+    const $nav = $('<div class="carousel-nav"></div>');
+    const $prev = $('<button class="carousel-prev">&lt;</button>');
+    const $next = $('<button class="carousel-next">&gt;</button>');
+    let currentIndex = 0;
+    let isAnimating = false;
 
-  var options = {
-    slidesToScroll: 1,
-    slidesToShow: 3,
-    loop: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
+    // Setup carousel structure
+    $carousel.empty();
+    $carousel.append($container);
+    $carousel.append($nav);
+    $nav.append($prev);
+    $nav.append($next);
+
+    // Add items to container
+    $items.each(function() {
+      $container.append($(this));
+    });
+
+    // Show first item
+    $items.hide();
+    $items.eq(0).show();
+
+    // Navigation functions
+    function showSlide(index) {
+      if (isAnimating) return;
+      isAnimating = true;
+
+      const $current = $items.eq(currentIndex);
+      const $next = $items.eq(index);
+
+      $current.fadeOut(500, function() {
+        $next.fadeIn(500, function() {
+          isAnimating = false;
+        });
+      });
+
+      currentIndex = index;
+    }
+
+    function nextSlide() {
+      const nextIndex = (currentIndex + 1) % $items.length;
+      showSlide(nextIndex);
+    }
+
+    function prevSlide() {
+      const prevIndex = (currentIndex - 1 + $items.length) % $items.length;
+      showSlide(prevIndex);
+    }
+
+    // Event listeners
+    $next.on('click', nextSlide);
+    $prev.on('click', prevSlide);
+
+    // Auto-play
+    let autoplayInterval = setInterval(nextSlide, 5000);
+
+    // Pause on hover
+    $carousel.hover(
+      function() { clearInterval(autoplayInterval); },
+      function() { autoplayInterval = setInterval(nextSlide, 5000); }
+    );
   }
 
-  // Initialize all div with carousel class
-  var carousels = bulmaCarousel.attach('.carousel', options);
+  // Initialize carousel after a small delay
+  setTimeout(initCustomCarousel, 100);
 
   bulmaSlider.attach();
-
-})
+});
