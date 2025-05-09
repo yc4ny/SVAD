@@ -8,6 +8,7 @@ ${{\color{Black}\Huge{\textbf{  CVPR Workshop\ 2025\ \}}}}\$
 [![Paper](https://img.shields.io/badge/arXiv-2505.05475-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2505.05475)
 [![Project Page](https://img.shields.io/badge/SVAD-Website-4CAF50?logo=googlechrome&logoColor=white)](https://yc4ny.github.io/SVAD/)
 [![Code](https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white')](https://github.com/yc4ny/SVAD)
+[![Avatar](https://img.shields.io/badge/Avatar-Profile-blue?style=flat&logo=github&logoColor=white)](https://github.com/yc4ny)
 <a href="" target='_blank'>
     <img src="https://visitor-badge.laobi.icu/badge?page_id=yc4ny.Fanbeam-Calibration&left_color=gray&right_color=orange">
 </a>
@@ -111,6 +112,20 @@ bash script.sh female-3-casual 0  # Running on GPU 0
 bash script.sh thuman_181 1    # Running on GPU 1
 ```
 If you have correctly installed the environment and applied the package fixes in [FIX.md](docs/FIX.md), there should be no problem running the automated script. However, if there are issues, we also provide a step by step guide to train your avatar. Follow the details in [TRAIN.md](docs/TRAIN.md).
+
+### Avatar Rendering
+
+#### Neutral Pose
+After training your avatar, you can render the rotating avatar with neutral pose: 
+```bash
+cd avatar/main/
+python get_neutral_pose.py --subject_id {SUBJECT_ID} --test_epoch 4
+```
+You can animate your avatar with :
+```bash
+python animation.py --subject_id {SUBJECT_ID} --test_epoch 4 --motion_path {MOTION_PATH}
+```
+The rendering code is based on [ExAvatar](https://github.com/mks0601/ExAvatar_RELEASE) so to prepare motion sequences, please refer to this [link](https://github.com/mks0601/ExAvatar_RELEASE/tree/main/fitting).
 
 ## Acknowledgements
 Parts of the code are taken or adapted from the following repos:
