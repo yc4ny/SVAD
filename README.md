@@ -40,7 +40,7 @@ ${{\color{Black}\Huge{\textbf{  CVPR Workshop\ 2025\ \}}}}\$
 First you need to clone the repo:
 ```
 git clone https://github.com/yc4ny/SVAD.git
-cd SDAV
+cd SVAD
 ```
 Our default installation method is based on Conda package and environment management:
 ```bash
