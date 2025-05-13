@@ -3,7 +3,7 @@
 # SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation
 
 ${{\color{Black}\Huge{\textbf{  CVPR Workshop\ 2025\ \}}}}\$
-<p align="center" style="font-size: 28px;" <a href="https://yc4ny.github.io/">Yonwoo Choi</a></p>
+<h3 align="center"><a href="https://yc4ny.github.io/">Yonwoo Choi</a></h3>
 
 [![Paper](https://img.shields.io/badge/arXiv-2505.05475-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2505.05475)
 [![Project Page](https://img.shields.io/badge/SVAD-Website-4CAF50?logo=googlechrome&logoColor=white)](https://yc4ny.github.io/SVAD/)
