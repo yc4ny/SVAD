@@ -143,9 +143,10 @@ If you find this code useful for your research, please consider citing the follo
 
 ```bibtex
 @inproceedings{choi2025svad,
-    title={SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation},
-    author={Yonwoo Choi},
-    booktitle={CVPR 2025 Workshop SyntaGen: 2nd Workshop on Harnessing Generative Models for Synthetic Visual Datasets},
-    year={2025}
+  title={SVAD: From Single Image to 3D Avatar via Synthetic Data Generation with Video Diffusion and Data Augmentation},
+  author={Choi, Yonwoo},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={3137--3147},
+  year={2025}
 }
 ```
