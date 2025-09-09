@@ -90,6 +90,7 @@ You can clone the models directly with `git lfs`:
 ```bash
 git lfs install
 git clone https://huggingface.co/yc4ny/SVAD-models
+```
 
 ### 🚨Package Compatibility Notes🚨
 
