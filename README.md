@@ -79,15 +79,18 @@ pip install .
 cd ../../ # Return to base avatar directory
 ```
 
-### Downloads
+### Model Checkpoints
 
-You can download the required files to run this code with:
+All required model checkpoints and assets are hosted on Hugging Face:
+
+👉 [yc4ny/SVAD-models](https://huggingface.co/yc4ny/SVAD-models)
+
+You can clone the models directly with `git lfs`:
+
 ```bash
-gdown 1_dH5-0fMTfED_BI1h_fQcL2bHyLqNBot
-python utils/extract_zip.py # This will put extracted files in place. 
-rm -rf Avatar.zip
-```
-Alternatively, use this google drive [link](https://drive.google.com/file/d/1_dH5-0fMTfED_BI1h_fQcL2bHyLqNBot/view?usp=sharing).
+git lfs install
+git clone https://huggingface.co/yc4ny/SVAD-models
+
 ### 🚨Package Compatibility Notes🚨
 
 To ensure seamless execution of our pipeline, certain package modifications are required. Please apply the fixes detailed in [FIX.md](docs/FIX.md) before running the code. These modifications address compatibility issues with dependencies and will prevent runtime errors during execution.
