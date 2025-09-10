@@ -25,6 +25,7 @@
 - Single-image input to full-body 3D avatar generation
 
 ## News
+- [2025/09/09] Model files have been hosted on HuggingFace.
 - [2025/05/08] Code has been released. 
 - [2025/03.30] SVAD has been accepted to CVPR 2025 Workshop.
 
